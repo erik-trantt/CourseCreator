@@ -1,4 +1,6 @@
 # CourseCreator
+This project is created and maintained by a team of 3, @HarshilSiyani, @zachchung and me. This repo is a fork from the original repo that contains additional work on code refactoring and UI/UX optimization.
+
 ## Project aim
 CourseCreator is a web app that help educators quickly transfer existing knowledge to digital format and share it with students. At this stage, the resources are lesson module and quiz module. 
 
