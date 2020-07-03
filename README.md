@@ -20,13 +20,13 @@ To create content on the website, we use a Trix text editor that is natively int
 ## Setup & Deployment
 ### Requirements
 1. Ruby (version 2.6.6)
-  - Use `ruby -v` to check your Ruby version on local machine.
+Use `ruby -v` to check your Ruby version on local machine.
 
-1. Ruby gems:
+2. Ruby gems:
 `gem install rails rake bundler rspec rubocop rubocop-performance pry pry-byebug`
-  - [Rails gem](https://guides.rubyonrails.org/v6.0/getting_started.html) is essential for this project.
+[Rails gem](https://guides.rubyonrails.org/v6.0/getting_started.html) is essential for this project.
 
-1. PostgreSQL database:
+3. PostgreSQL database:
 ```bash
 # for macOS
 brew install postgresql
