@@ -13,7 +13,50 @@ To create content on the website, we use a Trix text editor that is natively int
 1. Embedding videos using Trix editor
 1. Nested form at 3-level depth for building quiz with multiple questions and answers
 
-**WIP**
+## Setup, Server & Deployment
+### Setup
+Requirements:
+- Ruby (version 2.6.6)
+  Use `ruby -v` to check your Ruby version on local machine.
+- Ruby gems:
+  `gem install rake bundler rspec rubocop rubocop-performance pry pry-byebug`
+- PostgreSQL database:
+  ```bash
+  # for macOS
+  brew install postgresql
+  brew services start postgresql
+  
+  # for Ubuntu
+  sudo apt install -y postgresql postgresql-contrib libpq-dev build-essential
+  sudo -u postgres psql --command "CREATE ROLE `whoami` LOGIN createdb;"
+  ```
+
+Clone the project, and run on local machine
+```bash
+git clone git@github.com:erik-trantt/CourseCreator.git
+cd CourseCreator
+bundle install
+yarn install --check-files
+```
+
+### Server
+Once the project is made available on your local machine, create the database in PostgreSQL and populate structure and data.
+```bash
+rails db:drop #=> only if you have the databases setup before
+rails db:create
+rails db:migrate
+rails db:seed
+```
+
+### Deployment
+Start the application with:
+```bash
+rails s
+```
+
+## Next steps
 Sections to work on next addition:
 - How to setup local development
+- Tests
 - Gems
+
