@@ -63,6 +63,7 @@ rails s
 ## Next steps
 Sections to work on next addition:
 - [x] Guide to setup local development (2020-07-02)
+- [X] Gems (2020-07-03)
 - [ ] Tests
-- [ ] Gems
+
 
