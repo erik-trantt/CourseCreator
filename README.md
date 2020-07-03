@@ -17,25 +17,25 @@ To create content on the website, we use a Trix text editor that is natively int
 1. Embedding videos using Trix editor
 1. Nested form at 3-level depth for building quiz with multiple questions and answers
 
-## Setup, Server & Deployment
-### Setup
-Requirements:
-- Ruby (version 2.6.6)
-  Use `ruby -v` to check your Ruby version on local machine.
-- Ruby gems:
-  `gem install rails rake bundler rspec rubocop rubocop-performance pry pry-byebug`
-  [Rails gem](https://guides.rubyonrails.org/v6.0/getting_started.html) is essential for this project.
-- PostgreSQL database:
-  ```bash
-  # for macOS
-  brew install postgresql
-  brew services start postgresql
-  
-  # for Ubuntu
-  sudo apt install -y postgresql postgresql-contrib libpq-dev build-essential
-  sudo -u postgres psql --command "CREATE ROLE `whoami` LOGIN createdb;"
-  ```
+## Setup & Deployment
+### Requirements
+Ruby (version 2.6.6)
+  - Use `ruby -v` to check your Ruby version on local machine.
+Ruby gems:
+`gem install rails rake bundler rspec rubocop rubocop-performance pry pry-byebug`
+  -[Rails gem](https://guides.rubyonrails.org/v6.0/getting_started.html) is essential for this project.
+PostgreSQL database:
+```bash
+# for macOS
+brew install postgresql
+brew services start postgresql
 
+# for Ubuntu
+sudo apt install -y postgresql postgresql-contrib libpq-dev build-essential
+sudo -u postgres psql --command "CREATE ROLE `whoami` LOGIN createdb;"
+```
+
+### Setup
 Clone the project, and run on local machine
 ```bash
 git clone git@github.com:erik-trantt/CourseCreator.git
@@ -44,7 +44,6 @@ bundle install
 yarn install --check-files
 ```
 
-### Server
 Once the project is made available on your local machine, create the database in PostgreSQL and populate structure and data.
 ```bash
 rails db:drop #=> only if you have the databases setup before
