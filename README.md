@@ -1,5 +1,9 @@
 # CourseCreator
-This project is created and maintained by a team of 3, [@HarshilSiyani](https://github.com/HarshilSiyani), [@zachchung](https://github.com/zachchung) and [@erik-trantt](https://github.com/erik-trantt)(me). This repo is a fork from the [original repo](https://github.com/HarshilSiyani/CourseCreator) that contains additional work on code refactoring and UI/UX optimization.
+This project is created and maintained by a team of 3, [@HarshilSiyani](https://github.com/HarshilSiyani), [@zachchung](https://github.com/zachchung) and [@erik-trantt](https://github.com/erik-trantt)(me). This repo is a fork from the [original repo](https://github.com/HarshilSiyani/CourseCreator).
+
+What're new in this repo:
+- additional work on code refactoring 
+- UI/UX optimization
 
 ## Project aim
 CourseCreator is a web app that help educators quickly transfer existing knowledge to digital format and share it with students. At this stage, the resources are lesson module and quiz module. 
@@ -19,7 +23,8 @@ Requirements:
 - Ruby (version 2.6.6)
   Use `ruby -v` to check your Ruby version on local machine.
 - Ruby gems:
-  `gem install rake bundler rspec rubocop rubocop-performance pry pry-byebug`
+  `gem install rails rake bundler rspec rubocop rubocop-performance pry pry-byebug`
+  [Rails gem](https://guides.rubyonrails.org/v6.0/getting_started.html) is essential for this project.
 - PostgreSQL database:
   ```bash
   # for macOS
@@ -56,7 +61,7 @@ rails s
 
 ## Next steps
 Sections to work on next addition:
-- How to setup local development
-- Tests
-- Gems
+- [x] Setup local development environment
+- [ ] Tests
+- [ ] Gems
 
