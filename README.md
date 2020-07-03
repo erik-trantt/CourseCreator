@@ -62,7 +62,7 @@ rails s
 
 ## Next steps
 Sections to work on next addition:
-- [x] Setup local development environment
+- [x] Guide to setup local development (2020-07-02)
 - [ ] Tests
 - [ ] Gems
 
