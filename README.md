@@ -17,6 +17,9 @@ To create content on the website, we use a Trix text editor that is natively int
 1. Embedding videos using Trix editor
 1. Nested form at 3-level depth for building quiz with multiple questions and answers
 
+Read more [here](https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6) for outline, problem solving approach and results:
+- https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6
+
 ## Setup & Deployment
 ### Requirements
 1. Ruby (version 2.6.6)
