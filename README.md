@@ -17,7 +17,7 @@ To create content on the website, we use a Trix text editor that is natively int
 1. [Embedding videos using Trix editor](https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6#21df5cc7b3ae4437b396727b1be16634)
 1. [Nested form at 3-level depth for building quiz with multiple questions and answers](https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6#34111f2d491540c5add3e259b5216bbb)
 
-Read more [here](https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6) for database schema:
+Read more here for database schema:
 - https://www.notion.so/CourseCreator-technical-challenges-31a9dafb518b4fe6a19c630e617a34c6
 
 ## Setup & Deployment
