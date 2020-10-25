@@ -2,8 +2,11 @@
 This project is created and maintained by a team of 3, [@HarshilSiyani](https://github.com/HarshilSiyani), [@zachchung](https://github.com/zachchung) and [@erik-trantt](https://github.com/erik-trantt)(me). This repo is a fork from the [original repo](https://github.com/HarshilSiyani/CourseCreator).
 
 What're new in this repo:
-- additional work on code refactoring 
-- UI/UX optimization
+- some code refactoring 
+
+## Product demo
+
+CourseCreator is hosted on Heroku. access via https://coursecreator.herokuapp.com/
 
 ## Project aim
 CourseCreator is a web app that help educators quickly transfer existing knowledge to digital format and share it with students. At this stage, the resources are lesson module and quiz module. 
